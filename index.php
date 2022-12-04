@@ -9,7 +9,7 @@ echo addNumbers(5,5);
 echo "\n";
 
 $box = new Box(['Qalam', 'Ruchka', 'Qaychi']);
-$box->takeOne('Qalam');
+$box->takeOne();
 print_r($box->startsWith('Q'));
 
 echo "\n";
